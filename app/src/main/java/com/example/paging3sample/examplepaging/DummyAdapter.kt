@@ -12,6 +12,19 @@ import com.example.paging3sample.Movie
 import com.example.paging3sample.R
 import kotlinx.android.synthetic.main.movie_item.view.*
 
+/**
+ *
+ *   **Header/Footer methods**
+ *
+ *   * withLoadStateHeader - if we only want to display header
+ *
+ *   * withLoadStateFooter - if we only want to display footer
+ *
+ *   * withLoadStateHeaderAndFooter - if we want to display both header and footer
+ *
+ *
+ * **/
+
 class DummyAdapter() :
     PagingDataAdapter<Movie, RecyclerView.ViewHolder>(DiffUtilCallBack()) {
 
